@@ -1,0 +1,40 @@
+#friends-display-link {
+    display: flex;
+    justify-content : center;
+    background-color: #FAFAFA;
+    text-align: center;
+    padding : 15px 0px;
+    font-weight: 600;  
+    
+}
+
+#friends-display-link i{
+    color: rgba(0,0,0,0.3);
+}
+
+.friends-screen {
+    padding: 0px var(--horizontal-space);
+}
+.friend-screen__channel {
+    margin-top: 25px;
+    padding-top : 15px;
+    border-top : 1px solid rgba(0,0,0,0.2);
+}
+
+.friend-screen__channel-header {
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: space-between;
+    color : rgba(0,0,0,0.5);
+}
+
+
+/* 나는 div로 만들었는데 쌤은 a로 만들었다. 딱히 상관없음
+.friend__text span:first-child {
+    margin-right: 5px;
+}
+
+.friend__text span:nth-child(2) {
+    margin-left: 5px;
+}
+*/
